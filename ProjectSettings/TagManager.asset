@@ -7,6 +7,7 @@ TagManager:
   - Through
   - Enemy
   - EndLevel
+  - Bullet
   layers:
   - Default
   - TransparentFX
