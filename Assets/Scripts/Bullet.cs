@@ -15,6 +15,7 @@ public class Bullet : MonoBehaviour
         Vector2 destination = GameObject.Find("Player").transform.position - transform.position;
         destination.Normalize();
         rigid.AddForce(destination * speed * 50f);
+        Object.Destroy(this.gameObject, 5);
     }
 
     // Update is called once per frame
@@ -23,12 +24,11 @@ public class Bullet : MonoBehaviour
 
     }
 
-    private void OnCollisionEnter2D(Collision2D other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("hit");
-        if (other.gameObject.CompareTag("Through"))
+        if (other.CompareTag("Through"))
         {
-            Destroy(this);
+            Object.Destroy(this.gameObject);
         }
     }
 }
