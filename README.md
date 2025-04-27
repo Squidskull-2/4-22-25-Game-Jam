@@ -19,12 +19,13 @@ Use keys A and D to move left and right. Use the spacebar to jump. Jump on top o
 
 ## Implementation
 Features:
-- 3 different enemy types with various behaviors. A normal enemy that moves away when the player approaches, a charging enemy that runs toward the player when close, and a projectile enemy that shoots bullets at the player. 
-- Enemies produce musical sounds when killed.
+- 3 different enemy types with various behaviors. A normal enemy that moves away when the player approaches, a charging enemy that runs toward the player when close, and a projectile enemy that shoots bullets at the player. (Matthew)
+- Enemies produce musical sounds when killed. (Matthew)
 - Dangerous obstacles such as spikes and spiked cubes, that kill the player when touched.
-- Player character drawn and animated with an idle, walk, and jump animation.
-- Main and end menu designed with shader graphs, TextMeshPro, and particle systems.
-- Large and elaborate gameplay level.
+- Player character and enemies drawn. Player animated with an idle, walk, and jump animation. (Blayne)
+- Main and end menu designed with shader graphs, TextMeshPro, and particle systems. (Angela)
+- Large and elaborate gameplay level. (Angela)
+- Composed background music, enemy death sound effects, and game over sound effects. (Violet)
 
 ## References
 - Buttons: https://kenney.nl/assets/fantasy-ui-borders by Kenney
