@@ -1,6 +1,9 @@
 # 4-22-25-Game-Jam | Music Meister
 MSCH-C220 Game Jam, April 2025
 
+## Video of Gameplay
+https://www.youtube.com/watch?v=jfiaG2Eymu0
+
 ## Theme
 We interpreted the theme "You only have one" as only having one life. Hence, the player must traverse the dangerous terrain without making any mistakes. Furthermore, there is only one long level where the player stands out as the only one with color.
 We decided on a music-based concept; the player is a conductor, and the enemies are music notes.
@@ -37,17 +40,14 @@ N/A
 - Matthew Sheldon
   - Programmed enemy behaviors.
   - Primary programmer.
-- Blayne 
+- Blayne Baker
   - Drew character, enemy, and background sprites.
   - Implemented animations.
-- Violet 
+- Violet Mankowski
   - Sound Design.
   - Composed the music and sound effects.
 - Angela Tan
   - Added main menu and end screen.
   - Designed the gameplay level.
-
- ## Video of Gameplay
- https://www.youtube.com/watch?v=jfiaG2Eymu0
 
 
