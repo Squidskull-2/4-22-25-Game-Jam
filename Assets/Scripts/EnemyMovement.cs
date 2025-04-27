@@ -26,7 +26,7 @@ public class EnemyMovement : MonoBehaviour
     float velocityXSmoothing;
 
     Controller2D controller;
-    public GameObject player;
+    GameObject player;
     Vector3 playerLocation;
 
     Vector2 directionalInput;
@@ -35,6 +35,7 @@ public class EnemyMovement : MonoBehaviour
 
     void Start()
     {
+        player = GameObject.FindWithTag("Player");
         controller = GetComponent<Controller2D>();
 
         gravity = -(2 * maxJumpHeight) / Mathf.Pow(timeToJumpApex, 2);
