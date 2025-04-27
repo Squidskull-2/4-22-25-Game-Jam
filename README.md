@@ -31,6 +31,7 @@ Features:
 - Sounds: [Level Complete sound](https://uppbeat.io/sfx/level-complete-winner-piano/13107/32372), all other sounds created by Violet.
 
 ## Future Development
+N/A
 
 # Created by: Music Meister
 - Matthew Sheldon
@@ -45,4 +46,8 @@ Features:
 - Angela Tan
   - Added main menu and end screen.
   - Designed the gameplay level.
+
+ ## Video of Gameplay
+ https://www.youtube.com/watch?v=jfiaG2Eymu0
+
 
