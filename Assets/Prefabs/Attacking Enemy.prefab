@@ -93,10 +93,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6900502802464622267}
-  - component: {fileID: 5323225765942870422}
   - component: {fileID: 2715373186450498454}
   - component: {fileID: 8486088717873675365}
-  - component: {fileID: 1963452940268444393}
+  - component: {fileID: 8688694241480351973}
   m_Layer: 8
   m_Name: Attacking Enemy
   m_TagString: Enemy
@@ -121,28 +120,6 @@ Transform:
   - {fileID: 7031922806745825295}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5323225765942870422
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1038608941295871738}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87ad5c6b6cbe5d94aae608abfcd78e59, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxJumpHeight: 6
-  minJumpHeight: 2
-  timeToJumpApex: 0.4
-  moveSpeed: 3
-  wallJumpClimb: {x: 0, y: 0}
-  wallJumpOff: {x: 0, y: 0}
-  wallLeap: {x: 0, y: 0}
-  wallSlideSpeedMax: 3
-  wallStickTime: 0.25
-  player: {fileID: 0}
 --- !u!61 &2715373186450498454
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -210,7 +187,7 @@ MonoBehaviour:
   collider: {fileID: 0}
   maxSlopeAngle: 75
   playerInput: {x: 0, y: 0}
---- !u!114 &1963452940268444393
+--- !u!114 &8688694241480351973
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -219,11 +196,20 @@ MonoBehaviour:
   m_GameObject: {fileID: 1038608941295871738}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed6494ddcc5578e48bdf4ec4ea1ede6e, type: 3}
+  m_Script: {fileID: 11500000, guid: fc6f7e05ac5746f48823e6f6df537f87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTimer: 3
-  bullet: {fileID: 5401924060668428296, guid: ac6055806097e284987d72da2735b7e8, type: 3}
+  maxJumpHeight: 4
+  minJumpHeight: 1
+  timeToJumpApex: 0.4
+  moveSpeed: 7
+  wallJumpClimb: {x: 0, y: 0}
+  wallJumpOff: {x: 0, y: 0}
+  wallLeap: {x: 0, y: 0}
+  wallSlideSpeedMax: 3
+  wallStickTime: 0.25
+  player: {fileID: 0}
+  isLeft: 1
 --- !u!1 &2432114682685994520
 GameObject:
   m_ObjectHideFlags: 0
